@@ -11,10 +11,9 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup> 
 
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+  <PropertyGroup>
     <!-- Strong Signing assemblies in Release configuration -->
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)SystemWrapper.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-
 </Project>
