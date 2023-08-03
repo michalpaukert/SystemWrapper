@@ -1,5 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="../build.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.0.0.3</Version>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>	
+    <Nullable>enable</Nullable>
+  </PropertyGroup> 
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
   </ItemGroup>
